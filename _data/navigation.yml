@@ -1,0 +1,9 @@
+# These are the links that display at the top of the page. They are set by the theme by default, but you can override the theme's data file and specify links as you like; just make sure that you create the corresponding page and set the permalink correctly.
+# If you don't want any custom links to display, you can safely delete this file.
+
+- name: About
+  link: /about
+- name: Random
+  link: /random
+- name: Github
+  link: https://github.com/your-github-username-here

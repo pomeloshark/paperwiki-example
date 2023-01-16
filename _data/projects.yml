@@ -1,0 +1,7 @@
+# If you have projects other than your wiki, list them here in the below format. Once you change multi_projects to true in your config file, these projects will display on your index page. Make sure you have a corresponding folder in your collections folder and in the _pages folder, with a project.md file --- I suggest duplicating the wiki folder and changing the names accordingly; this way all the index page and sidebar links will work correctly.
+# If you aren't interested in creating other projects, feel free to delete this file. However, if you set multi_projects = true, then you will need this file in order for many of the site's pages to generate properly.
+
+- name: Wiki
+  link: /wiki
+  icon: ri-global-line # Pick an icon you like from RemixIcon and paste the code here.
+  desc: Knowledge at your fingertips
