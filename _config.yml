@@ -48,7 +48,7 @@ collections_dir: collections # specifies the location of the collections
 collections:
    wiki:
       output: true # creates a rendered page for each document in the collection
-      permalink: /:collection/:name # outputs /wiki/name-of-article
+      permalink: /:collection/:name # outputs /wiki/name-of-article, no file extension
 # If you want to have more than one collection and have set multi_projects to true, just uncomment the below lines, rename the collection, and create a corresponding folder in your collections folder. This folder must have a preceding underscore, as in '_wiki'. You can have as many collections as you like; make sure to both create a folder for each and make an entry for each in your projects.yml.
 #   your_collection:
 #      output: true
