@@ -8,9 +8,9 @@
 ---
 
 <ul class="collections_list">
-   {% for wiki in site.wiki %}
+   {% for page in site.wiki %}
       <li>
-         <a href="{{ wiki.url }}">{{ wiki.title }}</a>
+         <a href="{{ page.url }}">{{ page.name }}</a>
       </li>
    {% endfor %}
 </ul>

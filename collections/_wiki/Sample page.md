@@ -11,9 +11,6 @@
       - tag three
       - tag four
 
-   other_projects:
-      - works
-
    image: https://upload.wikimedia.org/wikipedia/commons/a/ad/Wild_Banana_%28Musa_campestris%29_inflorescence_%2815549388566%29.jpg
    image_alt: Your image's alt text here.
    image_caption: An edible banana species.
