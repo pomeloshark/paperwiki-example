@@ -10,6 +10,9 @@
       - tag two
       - tag three
       - tag four
+#   other_projects:
+#      - dictionary
+#      - literature
 
    image: https://upload.wikimedia.org/wikipedia/commons/a/ad/Wild_Banana_%28Musa_campestris%29_inflorescence_%2815549388566%29.jpg
    image_alt: Your image's alt text here.
@@ -40,7 +43,7 @@ The sidebar to the right is controlled by your front matter. Notice that this pa
 
 You can include as many images as you want in a page, but if you want the page to have a header image, you can specify that using the `image` key in your front matter. The value can be a URL, or a relative link such as `/assets/images/image.png`. The image and any associated caption (optional, but recommended) will be wrapped in `figure` and `figcaption` tags.
 
-The last two sidebar components are `quickstats` and `quicknotes`. Any key-value pairs under `quickstats` will be iterated through in table form, while `quicknotes` contains any other data that doesn't fit in a table --- this might be where you put, say, the signature of a famous person, or the motto of a university.
+The last two sidebar components are `quickstats` and `quicknotes`. Any key-value pairs under `quickstats` will be iterated through in table form, while `quicknotes` contains any other data that doesn't fit in a table --- this might be where you put, say, the signature of a famous person, or the map or flag of a nation.
 
 Any of these elements can be omitted.
 
@@ -62,7 +65,7 @@ However, it's also possible to link to pages in your site using Liquid's `link` 
 {% endraw %}
 ```
 
-The output is the same as the pure Markdown link, but with one key difference: if the page you link to does not exist, Jekyll will alert you and will fail to build, so that your site cannot be built with broken links. This is a very useful feature if you are dealing with a large number of pages.
+The output is the same as the pure Markdown link, but with one key difference: if the page you link to does not exist, Jekyll will alert you and will fail to build, so that your site cannot be built with broken links. This is a very useful feature if you are dealing with a large number of pages and links, or if you decide to modify your permalinking format.
 
 Remember that this method is case sensitive. More on linking in the [Jekyll docs](https://jekyllrb.com/docs/liquid/tags/).
 
